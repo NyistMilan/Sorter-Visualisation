@@ -12,6 +12,8 @@ cd Sorter-Visualisation
 cmake .
 
 make
+
+./Sorter-Visualisation
 ```
 
 ## Pictures
