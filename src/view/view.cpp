@@ -33,7 +33,7 @@ bool View::initialize(){
         return false;
     }
 
-    font = TTF_OpenFont("../fonts/BebasNeue-Regular.ttf", 35);
+    font = TTF_OpenFont("fonts/BebasNeue-Regular.ttf", 35);
     if(font == nullptr){
         SDL_Log("Failed to load font: %s", TTF_GetError());
         SDL_DestroyRenderer(renderer);
